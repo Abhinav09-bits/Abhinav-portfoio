@@ -76,7 +76,7 @@ interface Project {
   githubUrl: string // Link to GitHub repository
   liveUrl?: string // Link to live demo/deployment
   videoUrl?: string // Optional YouTube video demo URL
-  images?: string[] // Array of project screenshot URLs
+  images: string[] // Array of project screenshot URLs
   lines: string[] // Key features/highlights as bullet points
 }
 
@@ -181,7 +181,7 @@ const projects: Project[] = [
     technologies: ["HTML", "CSS", "React.js", "OpenAI API", "Chrome Extension"],
     githubUrl: "https://github.com/Abhinav09-bits/AiCodeExplainerExtension",
    // liveUrl: "https://chrome.google.com/webstore/detail/web-helper",
-   // images: ["/placeholder.svg?height=300&width=400", "/placeholder.svg?height=300&width=400"],
+   images: ["/placeholder.svg?height=300&width=400", "/placeholder.svg?height=300&width=400"],
     lines: [
       "Built an AI-powered Chrome Extension using manifest.json and React.js to explain code snippets and enhance developer productivity",
       "Integrated OpenAI API to generate real-time code explanations within the browser environment",
@@ -195,8 +195,7 @@ const projects: Project[] = [
     technologies: ["HTML", "CSS", "JavaScript"],
     githubUrl: "https://github.com/Abhinav09-bits/TicTacToe",
     liveUrl: "https://advanced-tictactoe.vercel.app/",
-  //  videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-   // images: ["/placeholder.svg?height=300&width=400"],
+ images: ["/placeholder.svg?height=300&width=400"],
     lines: [
       "Designed and developed a hybrid dual-game engine combining Tic-Tac-Toe and Stone-Paper-Scissors to enhance interactivity and user engagement",
       "Implemented logic to handle simultaneous interactions and shared gameplay outcomes between both games",
