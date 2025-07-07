@@ -426,8 +426,8 @@ export default function Portfolio() {
             onClick={() => {
               // Create temporary link element to trigger download
               const link = document.createElement("a")
-              link.href = "/resume.pdf"
-              link.download = "resume.pdf"
+              link.href = "https://drive.google.com/drive/folders/1zB_8VAppkd-hGLz2yZDaYl_l1V1H7lET"
+            //  link.download = "resume.pdf"
               link.click()
             }}
           >
